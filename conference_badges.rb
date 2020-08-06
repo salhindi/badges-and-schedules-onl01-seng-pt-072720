@@ -24,4 +24,8 @@ def printer(attendees)
   batch_bage_creator(attendees).each do |a|
     return a
   end
+  assign_rooms(attendees).each do |b|
+    return b
+  end
+end
 end
