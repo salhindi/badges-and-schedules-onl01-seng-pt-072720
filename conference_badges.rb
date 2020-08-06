@@ -22,9 +22,9 @@ end
 
 def printer(attendees)
   batch_bage_creator(attendees).each do |a|
-    puts a
+    return a
   end
   assign_rooms(attendees).each do |b|
-   puts b
+   return b
   end
 end
